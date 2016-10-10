@@ -1,0 +1,252 @@
+/** ***************************************
+	@Author			Gomal Themes
+	@Website		http://gomalthemes.com
+	@Created	10:35 PM Wednesday, Sep. 08, 2016
+
+	TABLE CONTENTS
+	---------------------------
+		01. Media Queries
+	---------------------------
+ ** ************************************* **/
+/**	01. Media Queries
+*************************************************** **/
+@media (min-width: 1200px) {
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    .team-holder .overlay {
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        top: 15px;
+    }
+    .team-links a {
+        margin-bottom: 5px;
+    }
+    .top-social {
+        margin-top: 0;
+    }
+    .portfolio-holder .overlay {
+        left: 15px;
+        right: 15px;
+        top: 15px;
+        bottom: 15px;
+    }
+}
+@media (min-width: 992px){
+    .inner-menu ul ul {
+        position: absolute;
+        z-index: 99;
+        background: #fff;
+        width: 100%;
+    }
+    .inner-menu {
+        overflow: inherit;
+    }
+}
+@media (max-width: 991px){
+    .contact-form {
+        margin-bottom: 25px;
+    }
+    .contact-info {
+        margin-bottom: 25px;
+    }
+    .blog-item img {
+        width: 100%;
+    }
+    .team-holder {
+        margin-bottom: 15px;
+    }
+    .team-holder img {
+        width: 100%;
+    }
+    .blog-holder {
+        margin-bottom: 25px;
+    }
+    .blog-holder img {
+        width: 100%;
+    }
+    .top-social {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .menu-overlay:after {
+        left: 0;
+        top: 0;
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        background: rgba(255, 255, 255, 0.4);
+    }
+    .portfolioContainer div[class^="col-"], .portfolioContainer div[class*=" col-"] {
+        width: 100%;
+    }
+    .portfolio-holder > img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .banner-caption h1 {
+        line-height: 60px;
+    }
+}
+@media (max-width: 767px){
+    .small-banner div.middle {
+        display: block;
+    }
+    .sidebar {
+        margin-top: 25px;
+    }
+    .pro-ul p {
+        display: inline-block;
+        width: 100%;
+        padding-left: 0;
+        margin: 15px 0;
+    }
+    .portfolio-parallax {
+        min-height: 350px;
+    }
+    .title.large-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 0;
+    }
+    .mobile-visibility {
+        display: block;
+    }
+    h2.title {
+        margin-top: 15px;
+    }
+    .blog-holder .overlay {
+        right: 15px;
+        left: 15px;
+        top: 15px;
+        bottom: 15px;
+    }
+    .carousel.testimonial p {
+        font-size: 16px;
+    }
+    .counter {
+        margin-bottom: 25px;
+    }
+    .dib {
+        display: block;
+    }
+    .social-link span {
+        display: none;
+    }
+    .social-link a {
+        margin: 0 5px;
+    }
+    .social-link .fa {
+        font-size: 18px;
+    }
+    .portfolio-holder .overlay {
+        right: 15px;
+        left: 15px;
+        top: 15px;
+        bottom: 15px;
+    }
+    .portfolioFilter a {
+        margin-bottom: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    section.banner {
+        height: 550px;
+    }
+    .menu-overlay:before {
+        background: none;
+    }
+    .menu-overlay.active {
+        overflow-y: auto;
+    }
+    .menu-overlay:after {
+        bottom: -200px;
+        height: auto;
+    }
+    .inner-menu {
+        height: 300px;
+        margin-top: 70px !important;
+    }
+    .inner-menu ul li {
+        margin: 8px 0;
+    }
+    .inner-menu ul ul li > a {
+        font-size: 15px;
+    }
+    .inner-menu ul li > a {
+        font-size: 18px;
+    }
+    .btn.extra-btn-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-caption .btn {
+        font-size: 16px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    .banner-caption h1 {
+        font-size: 36px;
+        margin-top: 0;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .banner-caption h3 {
+        font-size: 36px;
+        margin-top: 0;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .navbar-right.toggle-icon {
+        margin-top: -17px;
+    }
+    .navbar-brand {
+        max-width: 200px;
+    }
+}
+@media (max-width: 767px) and (min-width: 736px) {
+}
+@media (max-width: 735px) and (min-width: 685px) {
+}
+@media (max-width: 684px) and (min-width: 667px) {
+}
+@media (max-width: 666px) and (min-width: 568px) {
+}
+@media (max-width: 567px) and (min-width: 480px) {
+}
+@media (max-width: 479px){
+    .banner-caption h1,.banner-caption h3 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .comments .media img {
+        width: 60px;
+    }
+    .team-holder .overlay {
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        top: 15px;
+    }
+    .team-links a {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .overlay-links a {
+        font-size: 18px;
+        line-height: 32px;
+        width: 32px;
+        height: 32px;
+    }
+}
+@media (max-width: 479px) and (min-width: 414px) {
+}
+@media (max-width: 413px) and (min-width: 375px) {
+}
+@media (max-width: 374px) and (min-width: 320px) {
+}
