@@ -1,0 +1,405 @@
+/** ***************************************
+	@Author			Gomal Themes
+	@Website		http://gomalthemes.com
+	@Created	10:35 PM Wednesday, Sep. 28, 2016
+
+	TABLE CONTENTS
+	---------------------------
+		01. Color & Background Colors
+		02. Font Sizes
+		03. Spacing/Dividers
+		04. Buttons
+		05. Transitions
+	---------------------------
+ ** ************************************* **/
+/**	01. Color  & Background Colors
+*************************************************** **/
+.ms-light {
+    font-family: 'Montserrat-Light';
+}
+.ms-black {
+    font-family: 'Montserrat-Black';
+}
+.color-white {
+    color: #fff !important;
+}
+.bg-half-white {
+    background: #f7f7f7;
+}
+.bg-dark-grey {
+    background: #333333;
+}
+.bg-white {
+    background: #fff;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-700 {
+    font-weight: 700;
+}
+/** ************************************* **/
+/**	02. Font Sizes
+*************************************************** **/
+.font-11 {
+    font-size: 11px;
+}
+.font-13 {
+    font-size: 13px;
+}
+.font-15 {
+    font-size: 15px;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-21{
+    font-size: 21px;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-37 {
+    font-size: 37px;
+}
+.font-50 {
+    font-size: 50px;
+}
+.font-60 {
+    font-size: 60px;
+}
+.font-84 {
+    font-size: 84px;
+}
+.font-172 {
+    font-size: 172px;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.text-bold {
+    font-weight: 700;
+}
+/** ************************************* **/
+/**	02. Spacings
+*************************************************** **/
+.space10 {
+    float: left;
+    width: 100%;
+    height: 10px;
+}
+.space20 {
+    float: left;
+    width: 100%;
+    height: 20px;
+}
+.space30 {
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+.space40 {
+    float: left;
+    width: 100%;
+    height: 40px;
+}
+.space50 {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.space60 {
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+.space70 {
+    float: left;
+    width: 100%;
+    height: 70px;
+}
+.space80 {
+    float: left;
+    width: 100%;
+    height: 80px;
+}
+.space90 {
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+.space100 {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+.space110 {
+    float: left;
+    width: 100%;
+    height: 110px;
+}
+.space120 {
+    float: left;
+    width: 100%;
+    height: 120px;
+}
+.space130 {
+    float: left;
+    width: 100%;
+    height: 130px;
+}
+.space140 {
+    float: left;
+    width: 100%;
+    height: 140px;
+}
+.space150 {
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+/** ************************************* **/
+/**	02. Buttons
+*************************************************** **/
+.btn {
+    font-size: 16px;
+    background: #da5a4a;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding: 15px 25px;
+    overflow: hidden;
+    border: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.btn:hover,.btn:focus,.btn:active {
+    overflow: hidden;
+    color: #fff;
+    background: #38454f;
+}
+.btn.white-fill {
+    background: #fff;
+    color: #da5a4a;
+}
+.btn.white-fill:hover {
+    background: #da5a4a;
+    color: #fff;
+}
+.btn.extra-btn-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/** 05 Transitions **/
+/* Shutter Out Horizontal */
+.hvr-shutter-out-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: #e1e1e1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.hvr-shutter-out-horizontal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+    color: white;
+}
+.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+/* Sweep To Right */
+.hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+    color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* Sweep To Left */
+.hvr-sweep-to-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.hvr-sweep-to-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
+    color: white;
+}
+.hvr-sweep-to-left:hover:before, .hvr-sweep-to-left:focus:before, .hvr-sweep-to-left:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url(images/preloader.gif) no-repeat center center;
+}
+.relative {
+    position: relative;
+}
+.data-image {
+    background-position: 50% 0 !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+.data-image-stellar {
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+.padding-40-40 {
+    padding: 40px 0;
+}
+.padding-60-60 {
+    padding: 60px 0;
+}
+.padding-200-200 {
+    padding: 200px 0;
+}
+.border-bottom-grey {
+    border-bottom: 1px solid #ccc;
+}
+.margin-top-0 {
+    margin-top: 0;
+}
+.margin-bottom-0 {
+    margin-bottom: 0 !important;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px #38454f;
+    background-color: #38454f;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #38454f;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #da5a4a;
+}
+.mobile-visibility {
+    display: none;
+}
