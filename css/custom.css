@@ -1249,3 +1249,14 @@ ul.social-share li:first-child {
 .comments ul li:last-child {
     margin-bottom: 0;
 }
+
+/** ************************************* **/
+/**	05. Custom Changes
+*************************************************** **/
+
+/** Navbar logo**/
+
+.navbar-image{
+	height: 100px;
+}
+
