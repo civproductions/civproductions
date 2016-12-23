@@ -346,7 +346,7 @@ section.banner {
     color: #fff;
 }
 .banner-caption {
-    border-left: 10px solid #da5a4a;
+    /*border-left: 10px solid #da5a4a;*/
     padding: 0 25px 0 25px;
 }
 .banner-caption h3{
