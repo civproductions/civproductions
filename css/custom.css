@@ -357,6 +357,7 @@ section.banner {
 }
 .banner-caption h1{
     font-size: 70px;
+    text-align:center;
     margin-top: 0;
     line-height: 44px;
     margin-bottom: 60px;
