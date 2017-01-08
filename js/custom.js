@@ -1,22 +1,6 @@
 (function (jQuery) {
     "use strict";
     // Parallax Backgrounds
-    jQuery.stellar({
-        horizontalScrolling: false,
-        scrollProperty: 'scroll',
-        positionProperty: 'position'
-    });
-    // BG Color & Image
-    jQuery('section,div').each(function(){
-        var bg_color = jQuery(this).attr("data-color");
-        if(bg_color){
-            jQuery(this).css("background-color", "" + bg_color + "");
-        }
-        var url = jQuery(this).attr("data-image");
-        if(url){
-            jQuery(this).css("background-image", "url(" + url + ")");
-        }
-    });
     // Menu Overlay
     jQuery('.toggle-icon').on('click',function(e){
         e.preventDefault();

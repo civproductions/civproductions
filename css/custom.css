@@ -86,7 +86,6 @@ h5 {
 }
 section {
     width: 100%;
-    padding: 85px 0;
     position: relative;
     clear: both;
 }
@@ -342,31 +341,12 @@ div.middle > div.bottom {
     vertical-align: bottom;
 }
 section.banner {
-    height: 667px;
+    height: 80vh;
     color: #fff;
+    overflow: hidden;
+    
 }
-.banner-caption {
-    /*border-left: 10px solid #da5a4a;*/
-    padding: 0 25px 0 25px;
-}
-.banner-caption h3{
-    font-size: 70px;
-    margin-top: 0;
-    line-height: 44px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-.banner-caption h1{
-    font-size: 70px;
-    text-align:center;
-    margin-top: 0;
-    line-height: 44px;
-    margin-bottom: 60px;
-}
-.banner-caption .btn {
-    font-size: 24px;
-    margin-right: 10px;
-}
+
 .portfolio-holder {
     position: relative;
     overflow: hidden;
@@ -1262,3 +1242,78 @@ ul.social-share li:first-child {
 	height: 60px;
 }
 
+.landingvideo {
+    height: 100vh;
+    width: 100%;
+    bottom: 200px;
+}
+
+.landingvideobanner {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+}
+
+.landingvideobanner .h3 {
+    font-size: 24px;
+    
+}
+
+video {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border: 0;
+    width: 100%;
+}
+
+/*
+video {
+    margin: 0 auto;
+    height: 70vh;
+}
+*/
+
+.landingbuttons {
+        font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+    position: absolute;
+    top: 58%;
+}
+
+/*
+.banner-caption {
+    border-left: 10px solid #da5a4a;
+    padding: 0 25px 0 25px;
+}
+*/
+.banner-caption h3{
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+
+    
+}
+.banner-caption h1{
+    font-size: 70px;
+    text-align:center;
+    margin-top: 0;
+    line-height: 44px;
+    margin-bottom: 60px;
+}
+.banner-caption .btn {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+
+/** goning to need breakpoints to fix the banner or just rewrite the thing cuz it's a mess **/
