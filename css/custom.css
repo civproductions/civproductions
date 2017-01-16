@@ -1249,7 +1249,8 @@ ul.social-share li:first-child {
     overflow: hidden;
     background-image: url(../images/videofallback.jpg);
     background-size: cover;
-
+    background-position: center;
+    
 }
 
 
@@ -1304,10 +1305,10 @@ video {
 /** goning to need breakpoints to fix the banner or just rewrite the thing cuz it's a mess **/
 
 
-@media screen and (min-width: 600px) {
-    .landingvideo {
+@media screen and (min-width: 600px)
+{
+    .landingvideo 
+    {
         background: none;
-        
     }
 }
-
