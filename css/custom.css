@@ -1243,10 +1243,15 @@ ul.social-share li:first-child {
 }
 
 .landingvideo {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     bottom: 200px;
+    overflow: hidden;
+    background-image: url(../images/videofallback.jpg);
+    background-size: cover;
+
 }
+
 
 .landingvideobanner {
     width: 100%;
@@ -1257,18 +1262,24 @@ ul.social-share li:first-child {
     top: 50%;
 }
 
-.landingvideobanner .h3 {
+.landingvideobanner h3 {
     font-size: 24px;
-    
+    color: #fff;
 }
 
-video {
+#civvideo {
+    position: relative;
     top: 0;
     left: 0;
     bottom: 0;
     border: 0;
     width: 100%;
+    height: 50%;
+    z-index: -1000;
+    width: auto;
+    height: auto;
 }
+
 
 /*
 video {
@@ -1277,8 +1288,9 @@ video {
 }
 */
 
+
 .landingbuttons {
-        font-size: 20px;
+    font-size: 20px;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -1287,34 +1299,15 @@ video {
     top: 58%;
 }
 
-/*
-.banner-caption {
-    border-left: 10px solid #da5a4a;
-    padding: 0 25px 0 25px;
-}
-*/
-.banner-caption h3{
-    font-size: 24px;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    z-index: 2;
-    position: relative;
-
-    
-}
-.banner-caption h1{
-    font-size: 70px;
-    text-align:center;
-    margin-top: 0;
-    line-height: 44px;
-    margin-bottom: 60px;
-}
-.banner-caption .btn {
-    font-size: 24px;
-    margin-right: 10px;
-}
 
 
 /** goning to need breakpoints to fix the banner or just rewrite the thing cuz it's a mess **/
+
+
+@media screen and (min-width: 600px) {
+    .landingvideo {
+        background: none;
+        
+    }
+}
 
