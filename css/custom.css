@@ -1260,11 +1260,11 @@ ul.social-share li:first-child {
     margin: 0 auto;
     z-index: 2;
     position: absolute;
-    top: 50%;
+    top: 45%;
 }
 
 .landingvideobanner h3 {
-    font-size: 24px;
+    font-size: 34px;
     color: #fff;
 }
 
@@ -1291,12 +1291,38 @@ ul.social-share li:first-child {
     margin: 0 auto;
     z-index: 2;
     position: absolute;
-    top: 58%;
+    top: 55%;
 }
 
 
 
 /** goning to need breakpoints to fix the banner or just rewrite the thing cuz it's a mess **/
+
+{
+    .landingvideobanner
+    {
+        top: 45%;
+    }
+
+    .landingvideobanner h3
+    {
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .landingbuttons
+    {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        z-index: 2;
+        position: absolute;
+        top: 58%;
+    }
+    
+}
+
 
 
 @media screen and (min-width: 600px)
