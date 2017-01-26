@@ -1298,6 +1298,7 @@ ul.social-share li:first-child {
 
 /** goning to need breakpoints to fix the banner or just rewrite the thing cuz it's a mess **/
 
+@media screen and (max-width: 1024px)
 {
     .landingvideobanner
     {
