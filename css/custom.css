@@ -1279,6 +1279,8 @@ ul.social-share li:first-child {
     z-index: -1000;
     width: auto;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -1302,5 +1304,19 @@ ul.social-share li:first-child {
     .landingvideo 
     {
         background: none;
+    }
+
+}
+
+@media screen and (min-width: 1980px)
+{
+    .landingvideo
+    {
+        background: #333333;
+    }
+    
+    #civvideo
+    {
+        z-index: 0;
     }
 }
