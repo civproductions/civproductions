@@ -1,4 +1,5 @@
 (function (jQuery) {
+    
     "use strict";
     // Parallax Backgrounds
     // Menu Overlay
@@ -14,6 +15,17 @@
             jQuery('body').addClass('overflow-hidden');
         }
     });
+    
+    jQuery('.contact-link').on('click', function(e) {
+        {
+            jQuery(this).removeClass('active');
+            jQuery('.menu-overlay').removeClass('active');
+            jQuery('body').removeClass('overflow-hidden');
+            jQuery('.toggle-icon').removeClass('active');
+        }
+    });
+    
+    
     // DropDown Menu
     jQuery('.inner-menu ul li').each(function(){
         var ths = jQuery(this);
