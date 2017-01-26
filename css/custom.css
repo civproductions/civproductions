@@ -1305,6 +1305,10 @@ ul.social-share li:first-child {
     color: #fff;
 }
 
+hr {
+    border: 2px solid #000;
+    width: 60%;
+}
 
 /* media queries */
 /********_********/
