@@ -1,5 +1,5 @@
 /** ***************************************
-	@Author			Gomal Themes
+	@Author			Gomal Themes && Max Mayhew
 	@Website		http://gomalthemes.com
 	@Created	10:35 PM Wednesday, Sep. 28, 2016
 
@@ -530,9 +530,10 @@ section.banner {
 }
 .copyright {
     padding: 40px 0;
-    color: #fff;
+    background: #333333;
 }
 .copyright p {
+    color: aliceblue;
     margin: 0;
     padding: 0;
     font-size: 14px;
