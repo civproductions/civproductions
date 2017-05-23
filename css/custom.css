@@ -531,6 +531,7 @@ section.banner {
 .copyright {
     padding: 40px 0;
     background: #333333;
+    color: #fff;
 }
 .copyright p {
     color: aliceblue;
