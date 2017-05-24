@@ -522,11 +522,20 @@ section.banner {
     text-align: center;
 }
 .social-link a {
+    color: #fff;
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 5px;
+}
+
+.social-link a:hover {
+    text-decoration: none;
+    display: inline-block;
+    color: #da5a4a;
+    outline: none;
 }
 .social-link .fa {
-    font-size: 36px;
+
+    font-size: 30px;
 }
 .social-link span {
     font-family: 'Montserrat-Black';
