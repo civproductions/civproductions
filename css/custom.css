@@ -1314,14 +1314,30 @@ ul.social-share li:first-child {
 }
 
 .whoweare {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.whatwedo {
     background: #333333;
     width: 100%;
     padding: 110px 0px 100px 0px;
     color: #fff;
 }
 
-.container.whoweare h2.title {
+.container.whatwedo h2.title {
     color: #fff;
+}
+
+.contactp {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contact-us > div > a {
+    font-size: 20px;
+    text-decoration: underline;
+    
 }
 
 hr {
@@ -1379,3 +1395,18 @@ hr {
         z-index: 0;
     }
 }
+
+@media only screen and (max-width : 480px) {
+    
+    .contactp {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .whoweare {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}
+
