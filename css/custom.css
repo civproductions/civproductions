@@ -356,6 +356,7 @@ section.banner {
 }
 
 .portfolio-holder {
+    margin-bottom: 30px;
     position: relative;
     overflow: hidden;
     -webkit-transition: 0.3s ease-in-out;
