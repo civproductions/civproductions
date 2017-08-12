@@ -421,7 +421,7 @@ section.banner {
     border-right: 3px solid #da5a4a;
     padding-right: 10px;
     transform: translateX(-150%);
-    -webkit-transform: translateX(-150%);
+    -webkit-transform: translateX(-200%);
     -moz-transform: translateX(-150%);
     -o-transform: translateX(-150%);
     transition: transform .3s ease-out;
